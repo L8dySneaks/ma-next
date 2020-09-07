@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 export const PageLink = props => (
   <Link as={`/${props.id}`} href={`/page?id=${props.id}`}>
-    <a>{props.title}</a>
+    <a>{props.title} Test</a>
   </Link>
 );
 
