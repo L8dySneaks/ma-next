@@ -1,0 +1,33 @@
+{
+  "Main" : {
+    "uid" : {
+      "type" : "UID",
+      "config" : {
+        "placeholder" : "Project Number",
+        "label": "slug"
+      }
+    },
+    "title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1",
+        "placeholder" : "Project Title",
+        "label": "title"
+      }
+    },
+    "description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,em,strong,hyperlink",
+        "placeholder" : "Project Description",
+        "label": "desc"
+      }
+    },
+    "image" : {
+      "type" : "Image",
+      "config": {
+        "label": "mainimg"
+      }
+    }
+  }
+}
